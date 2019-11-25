@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8">
   <title>Gabriel Garoz - Full Stack Cloud Developer </title>
@@ -54,9 +54,21 @@
       box-sizing: border-box;
     }
 
-    .grz-column {
+    .grz-column-one {
       float: left;
-      width: 30%;
+      width: 100%;
+      padding: 0px;
+    }
+
+    .grz-column-three {
+        float: left;
+        width: 33%;
+        padding: 2px;
+    }
+
+    .grz-column-two {
+      float: left;
+      width: 50%;
       padding: 5px;
     }
 
@@ -107,7 +119,6 @@
     </div>
   </nav>
   <!--/ Nav End /-->
-
   <!--/ Intro Skew Star /-->
   <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
     <div class="overlay-itro"></div>
@@ -120,8 +131,8 @@
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
           <div class="socials">
             <ul>
-              <li><a href="https://www.linkedin.com/in/gabriel-garoz-51a777162/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-              <li><a href="https://github.com/Gabgrz"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+              <li><a href="https://www.linkedin.com/in/gabriel-garoz-51a777162/"><span class="ico-circle"><i style="color: #ffffff" class="ion-social-linkedin"></i></span></a></li>
+              <li><a href="https://github.com/Gabgrz"><span class="ico-circle"><i style="color: #ffffff" class="ion-social-github"></i></span></a></li>
             </ul>
           </div>
         </div>
@@ -153,25 +164,25 @@
                   </div>
                 </div>
                 <div class="skill-mf">
-                  <p class="title-s">Main skillls</p>
-                  <span>JavaScript</span> <span class="pull-right">85%</span>
+                  <p class="title-s">Main areas</p>
+                  <span>Front End Development</span> <span class="pull-right">75%</span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>Java</span> <span class="pull-right">75%</span>
+                  <span>Backend Development</span> <span class="pull-right">75%</span>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>Google Cloud Platform</span> <span class="pull-right">50%</span>
+                  <span>Databases</span> <span class="pull-right">65%</span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>NodeJS</span> <span class="pull-right">90%</span>
+                  <span>Cloud Development</span> <span class="pull-right">80%</span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                 </div>
@@ -225,14 +236,21 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
+              <span class="ico-circle"><i class="ion-cloud"></i></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Cloud Development</h2>
               <p class="s-description text-center">
                 Cloud-native development and redesign of existing applications that seamlessly integrate components from the Google Cloud ecosystem and other vendors.
-
               </p>
+              <div class="grz-row">
+                <div class="grz-column-one">
+                  <img src="img/gcp.png" alt="Snow" style="width:100%">
+                </div>
+                <div class="grz-column-one">
+                    <img src="img/kubernetes.png" alt="Forest" style="width:100%">
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -246,135 +264,98 @@
               <h2 class="s-title">Back End Development</h2>
               <p class="s-description text-center">
               Count on me for your front end, back end or database needs.
-                <br>
-              <h1
-              <i class="ion-social-html5"></i>
-              <i class="ion-social-javascript"></i>
-              <i class="ion-social-javascript"></i>
-              <i class="ion-social-javascript"></i>
-              <i class="ion-social-javascript"></i>
-              <i class="ion-social-javascript"></i>
+                bla blabla blabla blabla blabla blabla blabla blabla bla
+                bla blabla blabla bla
 
-              </h1>
               </p>
+            <div class="row">
+                <div class="grz-column-two">
+                    <img src="img/java.png" alt="Snow" style="width:100%">
+                </div>
+                <div class="grz-column-two">
+                  <br>
+                    <img src="img/spring.png" alt="Forest" style="width:100%">
+                </div>
+            </div>
+              <div class="row">
+                <div class="grz-column-three">
+                  <img src="img/node.png" alt="Snow" style="width:100%">
+                </div>
+                <div class="grz-column-three">
+                  <br>
+                  <img src="img/express.png" alt="Forest" style="width:100%">
+                </div>
+                <div class="grz-column-three">
+                  <br>
+                  <img src="img/mongodb.svg" alt="Forest" style="width:100%">
+                </div>
+              </div>
+              <div class="row">
+                <div class="grz-column-three">
+                  <img src="img/mysql.png" alt="Snow" style="width:100%">
+                </div>
+                <div class="grz-column-three">
+                  <br>
+                  <img src="img/oracledb.png" alt="Forest" style="width:100%">
+                </div>
+                <div class="grz-column-three">
+                  <br>
+                  <img src="img/redis.png" alt="Forest" style="width:100%">
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-camera"></i></span>
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Front End Development</h2>
               <p class="s-description text-center">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
                 provident vitae! Magni
-                tempora perferendis eum non provident.
-              <div class="socials">
-                <ul>
-                  <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                  <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                  <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                  <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
-                </ul>
-              </div>
               </p>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-
-              <br></br><br><br><br>
-              <h1
-                <i class="ion-android-phone-portrait"></i>
-                <i class="ion-android-phone-portrait"></i>
-              </h1>
-
-            </div>
-            <div class="service-content">
-            <h2 class="s-title">Mobile apps</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Graphic Design</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-              <div class="grz-row">
-                <div class="grz-column">
-                  <img src="img/react.png" alt="Snow" style="width:100%">
+              <div class="row">
+                <div class="grz-column-two">
+                  <img src="img/jss.png" alt="Snow" style="width:100%">
                 </div>
-                <div class="grz-column">
+                <div class="grz-column-two">
+                  <br>
                   <img src="img/react.png" alt="Forest" style="width:100%">
                 </div>
-                <div class="grz-column">
-                  <img src="img/react.png" alt="Mountains" style="width:100%">
+              </div>
+              <div class="row">
+                <div class="grz-column-three">
+                    <br><br>
+                  <img src="img/rxjs.png" alt="Snow" style="width:100%">
                 </div>
-                <div class="grz-column">
-                  <img src="img/react.png" alt="Mountains" style="width:100%">
+                <div class="grz-column-three">
+                  <br><br>
+                  <img src="img/jquery.png" alt="Forest" style="width:100%">
                 </div>
-                <div class="grz-column">
-                  <img src="img/react.png" alt="Mountains" style="width:100%">
+                <div class="grz-column-three">
+                  <br>
+                  <img src="img/bootstrap.png" alt="Forest" style="width:100%">
                 </div>
-                <div class="grz-column">
-                <img src="img/react.png" alt="Mountains" style="width:100%">
+              </div>
+              <div class="row">
+                <div class="grz-column-three">
+                  <br>
+                  <img src="img/appmaker.png" alt="Snow" style="width:100%">
                 </div>
-                <div class="grz-column">
-                  <img src="img/react.png" alt="Mountains" style="width:100%">
+                <div class="grz-column-three">
+                  <img src="img/apps-script.png" alt="Forest" style="width:100%">
                 </div>
-                <div class="grz-column">
-                  <img src="img/react.png" alt="Mountains" style="width:100%">
-                </div>
-                <div class="grz-column">
-                  <img src="img/react.png" alt="Mountains" style="width:100%">
-                </div>
-                <div class="grz-column">
-                  <img src="img/react.png" alt="Mountains" style="width:100%">
+                <div class="grz-column-three">
+                  <img src="img/material.png" alt="Forest" style="width:100%">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Marketing Services</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>

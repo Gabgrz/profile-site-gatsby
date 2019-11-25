@@ -1,0 +1,7 @@
+Material Design color palette
+
+Primary: #498dfc
+Light: #86bdff
+DarK: #0060c8
+
+----------------------
