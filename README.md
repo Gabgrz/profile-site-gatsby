@@ -7,5 +7,3 @@ This is my profile site for professional purposes.
 
 
 ![frontpage screenshot](/frontpage-screenshot.webp)
-
-
