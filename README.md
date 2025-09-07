@@ -1,9 +1,7 @@
 # Gabriel Garoz - Profile Site
 
-This is my profile site for professional purposes.
+> **Note**: Past personal portfolio website for Gatbsy.
 
-**URL**: http://gabrielgaroz.com/
+**Live**: http://gabrielgaroz.com/
 
-
-
-![frontpage screenshot](/frontpage-screenshot.webp)
+![Screenshot](/frontpage-screenshot.webp)
